@@ -4,7 +4,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/fzerorubigd/goql/astdata"
+	"github.com/3mard/goql/astdata"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

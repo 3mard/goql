@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/fzerorubigd/goql/astdata"
-	"github.com/fzerorubigd/goql/parse"
+	"github.com/3mard/goql/astdata"
+	"github.com/3mard/goql/parse"
 )
 
 type driver struct{}

@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/fzerorubigd/goql/parse"
+	"github.com/3mard/goql/parse"
 )
 
 type fieldType int

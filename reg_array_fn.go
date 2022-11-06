@@ -1,6 +1,6 @@
 package goql
 
-import "github.com/fzerorubigd/goql/astdata"
+import "github.com/3mard/goql/astdata"
 
 type isArrayFn int
 

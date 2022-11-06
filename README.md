@@ -3,8 +3,8 @@ A query language, over Go code, in Go!
 
 [![Build Status](https://travis-ci.org/fzerorubigd/goql.svg)](https://travis-ci.org/fzerorubigd/goql)
 [![Coverage Status](https://coveralls.io/repos/github/fzerorubigd/goql/badge.svg?branch=master)](https://coveralls.io/github/fzerorubigd/goql?branch=master)
-[![GoDoc](https://godoc.org/github.com/fzerorubigd/goql?status.svg)](https://godoc.org/github.com/fzerorubigd/goql)
-[![Go Report Card](https://goreportcard.com/badge/github.com/fzerorubigd/goql/die-github-cache-die)](https://goreportcard.com/report/github.com/fzerorubigd/goql)
+[![GoDoc](https://godoc.org/github.com/3mard/goql?status.svg)](https://godoc.org/github.com/3mard/goql)
+[![Go Report Card](https://goreportcard.com/badge/github.com/3mard/goql/die-github-cache-die)](https://goreportcard.com/report/github.com/3mard/goql)
 
 *This package is under heavy development, anything may change!*
 
@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"log"
 
-	_ "github.com/fzerorubigd/goql"
-	"github.com/fzerorubigd/goql/astdata"
+	_ "github.com/3mard/goql"
+	"github.com/3mard/goql/astdata"
 )
 
 func main() {
@@ -56,7 +56,7 @@ func main() {
 
 ```
 
-Also there is an example command line is available for more advanced usage in `cmd/goql` by running `go get -u github.com/fzerorubigd/goql/...` the binary is available in your `GOBIN` directory. you can run query against any installed package in your `GOPATH` via this tool.
+Also there is an example command line is available for more advanced usage in `cmd/goql` by running `go get -u github.com/3mard/goql/...` the binary is available in your `GOBIN` directory. you can run query against any installed package in your `GOPATH` via this tool.
 
 List of supported tables and fields are available in [docs/table](docs/tables.md)
 

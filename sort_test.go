@@ -4,7 +4,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/fzerorubigd/goql/parse"
+	"github.com/3mard/goql/parse"
 	"github.com/stretchr/testify/assert"
 )
 

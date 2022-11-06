@@ -3,7 +3,7 @@ package goql
 import (
 	"fmt"
 
-	"github.com/fzerorubigd/goql/astdata"
+	"github.com/3mard/goql/astdata"
 )
 
 func getSingleDef(args ...Getter) (astdata.Definition, error) {

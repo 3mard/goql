@@ -1,3 +1,4 @@
+//go:build go1.8
 // +build go1.8
 
 package main
@@ -10,8 +11,8 @@ import (
 	"reflect"
 	"strings"
 
-	_ "github.com/fzerorubigd/goql"
-	"github.com/fzerorubigd/goql/plugin/goqlimport"
+	_ "github.com/3mard/goql"
+	"github.com/3mard/goql/plugin/goqlimport"
 	"github.com/ogier/pflag"
 	"github.com/olekukonko/tablewriter"
 	"github.com/spf13/cast"
